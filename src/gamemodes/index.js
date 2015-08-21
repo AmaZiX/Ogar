@@ -10,7 +10,7 @@ module.exports = {
     Zombie: require('./Zombie'),
     TeamZ: require('./TeamZ.js'),
     TeamX: require('./TeamX.js'),
-    Amplified: require('./Amplified.js')
+    Amplified: require('./Amplified')
 };
 
 var get = function(id) {
