@@ -7,3 +7,6 @@ function Amplified() {
     this.name = "Amplified";
     this.specByLeaderboard = true;
 }
+
+module.exports = Amplified;
+Amplified.prototype = new Mode();
